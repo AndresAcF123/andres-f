@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Alertas en Javascript</title>
+<script>
+    function PromptDemo() {
+         //El usuario ingresa una pregunta
+         var cantante = prompt("¿Que cantante te gusta?", "");
+	 //Verificamos si el usuario ingresó un valor
+	 if (cantante != null){
+	 alert("Tu cantante favorito es " + cantante);
+}
+//Verificamos si el usuario no ingresó un valor
+else {
+alert("No has ingresado ningún cantante");
+
+  }
+
+}
+
+</script>
+</head>
+<!-- Esto es una página web no completa para escribir javascript -->
+<body>
+
+<input type="button" onclick="PromptDemo();" value="verificar"/>
+
+</body>
+</html>
+
